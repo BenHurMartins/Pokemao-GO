@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		265BA7CD1E70A23A00BDE66D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265BA7CC1E70A23A00BDE66D /* AppDelegate.swift */; };
+		265BA7CF1E70A23A00BDE66D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265BA7CE1E70A23A00BDE66D /* ViewController.swift */; };
+		265BA7D21E70A23A00BDE66D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 265BA7D01E70A23A00BDE66D /* Main.storyboard */; };
+		265BA7D51E70A23A00BDE66D /* Pokema_o_GOL.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 265BA7D31E70A23A00BDE66D /* Pokema_o_GOL.xcdatamodeld */; };
+		265BA7D71E70A23A00BDE66D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 265BA7D61E70A23A00BDE66D /* Assets.xcassets */; };
+		265BA7DA1E70A23A00BDE66D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 265BA7D81E70A23A00BDE66D /* LaunchScreen.storyboard */; };
+		265BA7E31E70A29E00BDE66D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 265BA7E21E70A29E00BDE66D /* MapKit.framework */; };
+		267563251E78711800868A82 /* CoreDataPokemao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267563241E78711800868A82 /* CoreDataPokemao.swift */; };
+		267563271E79C78700868A82 /* PokemonAnotacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267563261E79C78700868A82 /* PokemonAnotacao.swift */; };
+		267563291E7B2FD200868A82 /* PokeAgendaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267563281E7B2FD200868A82 /* PokeAgendaViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		265BA7C91E70A23A00BDE66D /* Pokemão GOL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pokemão GOL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		265BA7CC1E70A23A00BDE66D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		265BA7CE1E70A23A00BDE66D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		265BA7D11E70A23A00BDE66D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		265BA7D41E70A23A00BDE66D /* Pokema_o_GOL.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pokema_o_GOL.xcdatamodel; sourceTree = "<group>"; };
+		265BA7D61E70A23A00BDE66D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		265BA7D91E70A23A00BDE66D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		265BA7DB1E70A23A00BDE66D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		265BA7E21E70A29E00BDE66D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		267563241E78711800868A82 /* CoreDataPokemao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataPokemao.swift; sourceTree = "<group>"; };
+		267563261E79C78700868A82 /* PokemonAnotacao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonAnotacao.swift; sourceTree = "<group>"; };
+		267563281E7B2FD200868A82 /* PokeAgendaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeAgendaViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		265BA7C61E70A23A00BDE66D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265BA7E31E70A29E00BDE66D /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		265BA7C01E70A23900BDE66D = {
+			isa = PBXGroup;
+			children = (
+				265BA7CB1E70A23A00BDE66D /* Pokemão GOL */,
+				265BA7CA1E70A23A00BDE66D /* Products */,
+				265BA7E11E70A29E00BDE66D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		265BA7CA1E70A23A00BDE66D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				265BA7C91E70A23A00BDE66D /* Pokemão GOL.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		265BA7CB1E70A23A00BDE66D /* Pokemão GOL */ = {
+			isa = PBXGroup;
+			children = (
+				265BA7CC1E70A23A00BDE66D /* AppDelegate.swift */,
+				265BA7CE1E70A23A00BDE66D /* ViewController.swift */,
+				267563261E79C78700868A82 /* PokemonAnotacao.swift */,
+				267563241E78711800868A82 /* CoreDataPokemao.swift */,
+				267563281E7B2FD200868A82 /* PokeAgendaViewController.swift */,
+				265BA7D01E70A23A00BDE66D /* Main.storyboard */,
+				265BA7D61E70A23A00BDE66D /* Assets.xcassets */,
+				265BA7D81E70A23A00BDE66D /* LaunchScreen.storyboard */,
+				265BA7DB1E70A23A00BDE66D /* Info.plist */,
+				265BA7D31E70A23A00BDE66D /* Pokema_o_GOL.xcdatamodeld */,
+			);
+			path = "Pokemão GOL";
+			sourceTree = "<group>";
+		};
+		265BA7E11E70A29E00BDE66D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				265BA7E21E70A29E00BDE66D /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		265BA7C81E70A23A00BDE66D /* Pokemão GOL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 265BA7DE1E70A23A00BDE66D /* Build configuration list for PBXNativeTarget "Pokemão GOL" */;
+			buildPhases = (
+				265BA7C51E70A23A00BDE66D /* Sources */,
+				265BA7C61E70A23A00BDE66D /* Frameworks */,
+				265BA7C71E70A23A00BDE66D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pokemão GOL";
+			productName = "Pokemão GOL";
+			productReference = 265BA7C91E70A23A00BDE66D /* Pokemão GOL.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		265BA7C11E70A23900BDE66D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Ben Hur Martins";
+				TargetAttributes = {
+					265BA7C81E70A23A00BDE66D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 59M8L8YY39;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 265BA7C41E70A23900BDE66D /* Build configuration list for PBXProject "Pokemão GOL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 265BA7C01E70A23900BDE66D;
+			productRefGroup = 265BA7CA1E70A23A00BDE66D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				265BA7C81E70A23A00BDE66D /* Pokemão GOL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		265BA7C71E70A23A00BDE66D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265BA7DA1E70A23A00BDE66D /* LaunchScreen.storyboard in Resources */,
+				265BA7D71E70A23A00BDE66D /* Assets.xcassets in Resources */,
+				265BA7D21E70A23A00BDE66D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		265BA7C51E70A23A00BDE66D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265BA7D51E70A23A00BDE66D /* Pokema_o_GOL.xcdatamodeld in Sources */,
+				267563271E79C78700868A82 /* PokemonAnotacao.swift in Sources */,
+				265BA7CF1E70A23A00BDE66D /* ViewController.swift in Sources */,
+				265BA7CD1E70A23A00BDE66D /* AppDelegate.swift in Sources */,
+				267563251E78711800868A82 /* CoreDataPokemao.swift in Sources */,
+				267563291E7B2FD200868A82 /* PokeAgendaViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		265BA7D01E70A23A00BDE66D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				265BA7D11E70A23A00BDE66D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		265BA7D81E70A23A00BDE66D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				265BA7D91E70A23A00BDE66D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		265BA7DC1E70A23A00BDE66D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		265BA7DD1E70A23A00BDE66D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		265BA7DF1E70A23A00BDE66D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 59M8L8YY39;
+				INFOPLIST_FILE = "Pokemão GOL/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.ben-hur.Pokema-o-GOL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		265BA7E01E70A23A00BDE66D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 59M8L8YY39;
+				INFOPLIST_FILE = "Pokemão GOL/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.ben-hur.Pokema-o-GOL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		265BA7C41E70A23900BDE66D /* Build configuration list for PBXProject "Pokemão GOL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				265BA7DC1E70A23A00BDE66D /* Debug */,
+				265BA7DD1E70A23A00BDE66D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		265BA7DE1E70A23A00BDE66D /* Build configuration list for PBXNativeTarget "Pokemão GOL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				265BA7DF1E70A23A00BDE66D /* Debug */,
+				265BA7E01E70A23A00BDE66D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		265BA7D31E70A23A00BDE66D /* Pokema_o_GOL.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				265BA7D41E70A23A00BDE66D /* Pokema_o_GOL.xcdatamodel */,
+			);
+			currentVersion = 265BA7D41E70A23A00BDE66D /* Pokema_o_GOL.xcdatamodel */;
+			path = Pokema_o_GOL.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 265BA7C11E70A23900BDE66D /* Project object */;
+}
